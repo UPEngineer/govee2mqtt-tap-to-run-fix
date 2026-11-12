@@ -22,7 +22,7 @@ You can read everything it does in [`govee2mqtt_patched/Dockerfile`](govee2mqtt_
 ## Install
 
 1. In Home Assistant, go to **Settings → Apps → App store**.
-2. Click **⋮ → Repositories**, add `https://github.com/YOUR-GITHUB-USERNAME/govee2mqtt-tap-to-run-fix`, and click **Add**.
+2. Click **⋮ → Repositories**, add `https://github.com/UPEngineer/govee2mqtt-tap-to-run-fix`, and click **Add**.
 3. Find **Govee to MQTT Bridge (Tap-to-Run fix)** in the store and click **Install**. Wait for the build.
 4. On its **Configuration** tab, enter the same values as your official Govee to MQTT Bridge app
    (Govee email, password, API key, and MQTT settings if you set them there).
