@@ -1,0 +1,2 @@
+# Keep Linux line endings. A run.sh with Windows (CRLF) line endings won't start.
+* text=auto eol=lf
