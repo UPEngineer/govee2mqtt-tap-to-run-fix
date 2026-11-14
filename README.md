@@ -9,6 +9,8 @@ fetches Tap-to-Runs with the main account token instead, the same fix homebridge
 
 **Use this only until an official govee2mqtt release includes the fix**, then switch back to the official app.
 
+**Not using Home Assistant OS?** If you run govee2mqtt in plain Docker, see [DOCKER.md](DOCKER.md).
+
 ## How it works
 
 There's no prebuilt image. When you install it, Home Assistant downloads the govee2mqtt source (pinned
