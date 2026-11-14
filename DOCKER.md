@@ -4,7 +4,7 @@ These steps are for people who run govee2mqtt in Docker instead of as a Home Ass
 (Home Assistant Container, a NAS, a separate Linux server, and so on).
 If you use Home Assistant OS, follow the app instructions in the [README](README.md) instead.
 
-The image is `upengineer/govee2mqtt:tap-to-run-fix` on Docker Hub. It's govee2mqtt (upstream commit
+The image is `spalexander68/govee2mqtt:tap-to-run-fix` on Docker Hub. It's govee2mqtt (upstream commit
 `6f5a844`) with the fix for [wez/govee2mqtt#737](https://github.com/wez/govee2mqtt/issues/737) applied.
 Use it only until an official govee2mqtt release includes the fix.
 
@@ -54,7 +54,7 @@ Paste this, then save (Ctrl+O, Enter, Ctrl+X):
 name: govee2mqtt
 services:
   govee2mqtt:
-    image: upengineer/govee2mqtt:tap-to-run-fix
+    image: spalexander68/govee2mqtt:tap-to-run-fix
     container_name: govee2mqtt
     restart: unless-stopped
     env_file:
